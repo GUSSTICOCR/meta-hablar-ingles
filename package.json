@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "copy index.html www\\index.html & copy app.js www\\app.js & copy brad_avatar.png www\\brad_avatar.png",
+    "sync": "npm run build && npx cap sync"
   },
   "keywords": [
     "english",
@@ -16,6 +18,9 @@
   ],
   "author": "Meta Hablar Inglés",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4"
+  }
 }
