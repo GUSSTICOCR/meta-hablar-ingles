@@ -1,0 +1,21 @@
+{
+  "name": "bradia-meta-hablar-ingles",
+  "version": "1.0.0",
+  "description": "BRAD. IA - Plataforma de Aprendizaje de Inglés Conversacional con IA de Elite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "english",
+    "ai",
+    "learning",
+    "tutor",
+    "voice"
+  ],
+  "author": "Meta Hablar Inglés",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

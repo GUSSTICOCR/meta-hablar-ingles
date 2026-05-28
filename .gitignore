@@ -1,0 +1,32 @@
+# Evitar subir archivos pesados e innecesarios a GitHub
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Archivos de sistema
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Dependencias locales (si se instalan después)
+node_modules/
+dist/
+platforms/
+plugins/
+.gradle/
+local.properties
+.idea/
+
+# Credenciales y claves privadas
+.env
+*.pem
+*.key
+*.api_key
+
+# WhatsApp Web copias locales
+web.whatsapp.com*
+web.whatsapp.com_files/
+
